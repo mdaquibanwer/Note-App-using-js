@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #81e2e2;
+}
+.btn{
+    position: fixed;
+    right: 5rem;
+    top: 2rem;
+    display: block;
+    padding: 1rem;
+    font-size: 1.5re;
+    font-size: 1.5rem;
+    background: #333;
+    border: none;
+    color: #fafafa;
+    outline: none;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #666;
+    transition: .5s linear;
+}
+main{
+    padding: 2rem;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.note{
+    width: 30rem;
+    height: 30rem;
+    background-color: #fafafa;
+    margin: 5rem 2rem;
+}
+.toolbar{
+    width: 100%;
+    background-color: #333;
+    color: #fafafa;
+    padding: 2rem;
+    position: relative;
+}
+.toolbar .icon{
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+.toolbar i{
+    font-size: 2rem;
+    margin: 0 .3rem;
+    cursor: pointer;
+}
+.toolbar i:hover{
+    color: #81e2e2;
+    transition: .5s linear;
+}
+.note textarea{
+    font-size: 1.5rem;
+    padding: 2rem;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    word-wrap: break-word;
+}
+.note textarea:focus{
+    outline: none;
+}
